@@ -11,6 +11,13 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Insure landing page</title>
 
@@ -18,61 +25,82 @@
   </head>
   <body>
     <header>
-      <nav>
-        <li>How we work</li>
-        <li>Blog</li>
-        <li>Account</li>
-        <li>View plans</li>
-      </nav>
+      <div class="inner-header">
+        <img src="./images/logo.svg" />
+        <nav>
+          <li>How we work</li>
+          <li>Blog</li>
+          <li>Account</li>
+          <li>View plans</li>
+        </nav>
+      </div>
     </header>
-    <section>
-      <h1>Humanizing your insurance.</h1>
 
-      <p>
-        Get your life insurance coverage easier and faster. We blend our
-        expertise and technology to help you find the plan that’s right for you.
-        Ensure you and your loved ones are protected.
-      </p>
+    <section class="hero">
+      <div class="inner-hero">
+        <div class="column-1">
+          <hr />
+          <h1>Humanizing your insurance.</h1>
 
-      <button>View plans</button>
-    </section>
+          <p>
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for
+            you. Ensure you and your loved ones are protected.
+          </p>
 
-    <section>
-      <h2>We’re different</h2>
-
-      <div>
-        <h4>Snappy Process</h4>
-
-        <p>
-          Our application process can be completed in minutes, not hours. Don’t
-          get stuck filling in tedious forms.
-        </p>
-      </div>
-
-      <div>
-        <h4>Affordable Prices</h4>
-
-        <p>
-          We don’t want you worrying about high monthly costs. Our prices may be
-          low, but we still offer the best coverage possible.
-        </p>
-      </div>
-
-      <div>
-        <h4>People First</h4>
-
-        <p>
-          Our plans aren’t full of conditions and clauses to prevent payouts. We
-          make sure you’re covered when you need it.
-        </p>
+          <button>View plans</button>
+        </div>
+        <img src="./images/image-intro-desktop.jpg" />
       </div>
     </section>
-    <section>
-      <h2>Find out more about how we work</h2>
 
-      <button>How we work</button>
+    <section class="features">
+      <div class="inner-features">
+        <hr />
+        <h2>We’re different</h2>
+
+        <div class="three-features">
+          <div class="feature">
+            <img src="./images/icon-snappy-process.svg" />
+            <h4>Snappy Process</h4>
+
+            <p>
+              Our application process can be completed in minutes, not hours.
+              Don’t get stuck filling in tedious forms.
+            </p>
+          </div>
+
+          <div class="feature">
+            <img src="./images/icon-affordable-prices.svg" />
+            <h4>Affordable Prices</h4>
+
+            <p>
+              We don’t want you worrying about high monthly costs. Our prices
+              may be low, but we still offer the best coverage possible.
+            </p>
+          </div>
+
+          <div class="feature">
+            <img src="./images/icon-people-first.svg" />
+            <h4>People First</h4>
+
+            <p>
+              Our plans aren’t full of conditions and clauses to prevent
+              payouts. We make sure you’re covered when you need it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner">
+      <div class="inner-banner">
+        <h2>Find out more about how we work</h2>
+
+        <button>How we work</button>
+      </div>
     </section>
     <footer>
+      <img src="./images/logo.svg" />
       <div>
         <h4>Our company</h4>
 
