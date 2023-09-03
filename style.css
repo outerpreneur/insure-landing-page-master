@@ -213,7 +213,11 @@ hr {
 .inner-banner {
   max-width: var(--contained);
   margin: 0 auto;
-  background-color: var(--Dark-Violet);
+  background: url(./images/bg-pattern-how-we-work-desktop.svg),
+    var(--Dark-Violet);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
   padding: 5em;
   line-height: 70px;
   display: flex;
