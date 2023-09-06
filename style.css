@@ -238,3 +238,44 @@ hr {
   text-transform: uppercase;
   font-family: var(--font-karla);
 }
+
+/* footer */
+
+footer {
+  margin: 5em 0;
+  text-transform: uppercase;
+  font-family: var(--font-karla);
+}
+
+.inner-footer {
+  max-width: var(--contained);
+  margin: 0 auto;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-media {
+  display: flex;
+  gap: 5px;
+}
+
+hr {
+  width: 100%;
+}
+
+.links ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
