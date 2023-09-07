@@ -107,10 +107,20 @@ select {
   font-family: var(--font-karla);
 }
 
-.inner-header nav li:last-child {
-  background-color: white;
+.accent-button {
+  background-color: transparent;
   padding: 5px 10px;
   border: 1px solid black;
+  cursor: pointer;
+}
+
+.accent-button:hover {
+  background-color: black !important;
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
 }
 
 .hero {
@@ -278,4 +288,30 @@ hr {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .main-menu-desktop {
+    display: none !important;
+  }
+  .menu-icon {
+    display: block;
+  }
+
+  .inner-hero {
+    grid-template-columns: repeat(1, 1fr);
+    height: 1850px;
+    max-width: 100%;
+  }
+
+  .inner-hero .column-1 {
+    order: 2;
+  }
+
+  .inner-hero img {
+    transform: translateY(0px);
+    padding: 0;
+    order: 1;
+    width: 100vw;
+  }
 }
