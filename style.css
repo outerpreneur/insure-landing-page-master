@@ -309,8 +309,8 @@ hr {
   }
 
   .inner-hero img {
-    transform: translateY(0px);
-    padding: 0;
+    transform: translateY(0);
+
     order: 1;
     width: 100vw;
   }
