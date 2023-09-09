@@ -305,13 +305,11 @@ hr {
   }
 
   .inner-hero .column-1 {
-    order: 2;
   }
 
   .inner-hero img {
     transform: translateY(0);
 
-    order: 1;
     width: 100vw;
   }
 }
